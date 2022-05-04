@@ -24,4 +24,9 @@ public class ObserverTest {
 		sub.setState(14);
 		assertEquals(obs.getValue(), "16");
 	}
+	
+	@Test
+	public void testFail() {
+		assertTrue(false);
+	}
 }
